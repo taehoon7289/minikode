@@ -26,6 +26,7 @@
   },
   "scripts": {
     "start_react_web": "lerna run start",
-    "build": "lerna run build"
+    "build": "lerna run build ",
+    "build:tsc": "lerna run build:tsc"
   }
 }

@@ -17,7 +17,6 @@
   "main": "./lib/index.js",
   "types": "./lib/types.d.ts",
   "scripts": {
-    "build": "yarn build:tsc",
     "build:tsc": "tsc -b",
     "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
   },

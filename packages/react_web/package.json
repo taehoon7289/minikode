@@ -1,6 +1,7 @@
 {
   "name": "react_web",
   "version": "1.2.0",
+  "homepage": "./",
   "dependencies": {
     "@base/axios": "^1.1.0",
     "@base/util": "^1.2.0",
