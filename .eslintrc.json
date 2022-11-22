@@ -9,7 +9,6 @@
     "ecmaVersion": "latest",
     "sourceType": "module",
     "project": [
-      "./tsconfig.json",
       "./packages/react_web/tsconfig.json",
       "./packages/base/util/tsconfig.json",
       "./packages/base/axios/tsconfig.json"
