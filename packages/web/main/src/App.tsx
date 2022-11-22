@@ -1,8 +1,8 @@
 import React, { ReactElement } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import { request, Config } from '@base/axios'
-import { nowDate } from '@base/util'
+import { request, Config } from '@common/axios'
+import { nowDate } from '@common/util'
 
 function App(): ReactElement {
   console.log('nowDate', nowDate())

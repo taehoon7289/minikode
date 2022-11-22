@@ -1,6 +1,6 @@
 {
-  "name": "@base/axios",
-  "version": "1.1.0",
+  "name": "@common/util",
+  "version": "1.2.0",
   "description": "> TODO: description",
   "author": "taehoon7289 <taehoon7289@gmail.com>",
   "homepage": "",
@@ -21,6 +21,6 @@
     "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
   },
   "dependencies": {
-    "axios": "^1.1.3"
+    "dayjs": "^1.11.6"
   }
 }

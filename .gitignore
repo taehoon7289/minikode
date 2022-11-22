@@ -1,4 +1,4 @@
 node_modules/
 .idea
 
-packages/react_web/build
+packages/web/main/build

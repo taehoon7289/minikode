@@ -10,9 +10,9 @@ module.exports = {
     sourceType: 'module',
     tsconfigRootDir: __dirname,
     project: [
-      './packages/react_web/tsconfig.json',
-      './packages/base/axios/tsconfig.json',
-      './packages/base/util/tsconfig.json'
+      './packages/web/main/tsconfig.json',
+      './packages/common/axios/tsconfig.json',
+      './packages/common/util/tsconfig.json'
     ]
   },
   plugins: ['react'],
