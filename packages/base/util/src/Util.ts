@@ -1,5 +1,5 @@
 import dayjs from 'dayjs'
 
-export const nowDate = (format = 'YY-MM-DD'): string => {
+export const nowDate = (format = 'YYYY-MM-DD'): string => {
   return dayjs().format(format)
 }
