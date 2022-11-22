@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '6.0.3',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'build'
+0 silly argv }
+1 notice cli v6.0.3
+2 verbose rootPath C:\projects\workspaces\minikode
+3 info versioning independent
+4 error Error: Invalid package name "@base-util": name can only contain URL-friendly characters
+4 error     at invalidPackageName (C:\projects\workspaces\minikode\node_modules\npm-package-arg\npa.js:89:15)
+4 error     at Result.setName (C:\projects\workspaces\minikode\node_modules\npm-package-arg\npa.js:124:11)
+4 error     at new Result (C:\projects\workspaces\minikode\node_modules\npm-package-arg\npa.js:114:23)
+4 error     at Function.resolve (C:\projects\workspaces\minikode\node_modules\npm-package-arg\npa.js:61:15)
+4 error     at new Package (C:\projects\workspaces\minikode\node_modules\@lerna\package\index.js:94:26)
+4 error     at C:\projects\workspaces\minikode\node_modules\@lerna\project\index.js:278:26

@@ -1,0 +1,28 @@
+{
+  "name": "@base/axios",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "taehoon7289 <taehoon7289@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/types.d.ts",
+  "scripts": {
+    "build": "run-s clean build:tsc",
+    "build:tsc": "tsc",
+    "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "react_web": "^1.0.0"
+  }
+}
